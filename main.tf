@@ -14,7 +14,7 @@ resource "aws_instance" "web1" {
     vpc_security_group_ids = ["${aws_security_group.ssh-allowed.id}"]
 
     tags = {
-        Name: "My VPC Demo 2"
+        Name: "My VPC Demo 1"
     }
 }
 
